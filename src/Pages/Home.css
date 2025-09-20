@@ -1,0 +1,10 @@
+/* =============== HOME PAGE =============== */
+.home-page {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Ensure proper spacing for fixed header */
+.home-page .hero {
+  padding-top: var(--header-height);
+}

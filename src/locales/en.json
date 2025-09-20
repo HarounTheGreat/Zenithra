@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "protocols": "Protocols",
+    "gallery": "Gallery",
+    "blog": "News",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "home": {
+    "title": "Zenithra",
+    "subtitle": "Medical Aesthetic Clinic",
+    "description": "Your beauty, our medical expertise",
+    "cta": "Book appointment",
+    "learnMore": "Learn more"
+  },
+  "about": {
+    "title": "About Zenithra",
+    "subtitle": "Medical excellence and aesthetic innovation",
+    "description": "Our clinic combines certified medical expertise and cutting-edge technologies to offer you superior quality aesthetic care in a secure and professional environment.",
+    "team": "Our team",
+    "certifications": "Certifications",
+    "experience": "Years of experience"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Personalized aesthetic care",
+    "face": "Face",
+    "body": "Body",
+    "wellness": "Wellness",
+    "dental": "Dental"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "Book an appointment today",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Hours",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "service": "Desired service",
+      "message": "Message",
+      "submit": "Send"
+    }
+  },
+  "footer": {
+    "description": "Zenithra - Excellence Medical Aesthetic Clinic",
+    "quickLinks": "Quick links",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "rights": "All rights reserved"
+  }
+}

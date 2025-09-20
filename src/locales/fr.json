@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "protocols": "Protocoles",
+    "gallery": "Galerie",
+    "blog": "Actualités",
+    "contact": "Contact",
+    "admin": "Admin"
+  },
+  "home": {
+    "title": "Zenithra",
+    "subtitle": "Clinique Médicale Esthétique",
+    "description": "Votre beauté, notre expertise médicale",
+    "cta": "Prendre rendez-vous",
+    "learnMore": "En savoir plus"
+  },
+  "about": {
+    "title": "À propos de Zenithra",
+    "subtitle": "Excellence médicale et innovation esthétique",
+    "description": "Notre clinique allie expertise médicale certifiée et technologies de pointe pour vous offrir des soins esthétiques de qualité supérieure dans un environnement sécurisé et professionnel.",
+    "team": "Notre équipe",
+    "certifications": "Certifications",
+    "experience": "Années d'expérience"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Soins esthétiques personnalisés",
+    "face": "Visage",
+    "body": "Corps",
+    "wellness": "Bien-être",
+    "dental": "Dentaire"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Prenez rendez-vous dès aujourd'hui",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email",
+    "hours": "Horaires",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "service": "Service souhaité",
+      "message": "Message",
+      "submit": "Envoyer"
+    }
+  },
+  "footer": {
+    "description": "Zenithra - Clinique Médicale Esthétique d'excellence",
+    "quickLinks": "Liens rapides",
+    "services": "Services",
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "rights": "Tous droits réservés"
+  }
+}

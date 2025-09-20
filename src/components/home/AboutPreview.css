@@ -1,0 +1,153 @@
+/* =============== ABOUT PREVIEW =============== */
+.about-preview {
+  background: var(--pure-white);
+}
+
+.about-preview__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.about-preview__text h2 {
+  font-size: 2.5rem;
+  color: var(--charcoal);
+  margin-bottom: 1rem;
+  font-family: var(--font-primary);
+}
+
+.about-preview__subtitle {
+  font-size: 1.2rem;
+  color: var(--primary-gold);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.about-preview__description {
+  font-size: 1.1rem;
+  color: var(--dark-gray);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.about-preview__features {
+  margin-bottom: 2.5rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: var(--charcoal);
+  font-weight: 500;
+}
+
+.feature i {
+  font-size: 1.2rem;
+  color: var(--primary-gold);
+  width: 20px;
+}
+
+.about-preview__stats {
+  background: linear-gradient(135deg, var(--primary-gold), var(--secondary-gold));
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  color: var(--pure-white);
+  box-shadow: var(--shadow-medium);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: var(--font-primary);
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+/* =============== RESPONSIVE DESIGN =============== */
+@media screen and (max-width: 992px) {
+  .about-preview__content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .about-preview__text h2 {
+    font-size: 2rem;
+  }
+
+  .about-preview__features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    justify-content: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-preview__text h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-preview__subtitle {
+    font-size: 1.1rem;
+  }
+
+  .about-preview__description {
+    font-size: 1rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .stat-number {
+    font-size: 1.8rem;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .about-preview__stats {
+    padding: 2rem 1.5rem;
+  }
+}
