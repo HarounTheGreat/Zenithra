@@ -3,7 +3,10 @@ import "./qualifications.css";
 
 const Education = () => {
   return (
-    <section className="qualification section" id="education">
+    <section
+      className="qualification section"
+      id="education"
+    >
       <h2 className="section__title">Education</h2>
       <span className="section__subtitle">My Personal Journey</span>
 
@@ -20,7 +23,7 @@ const Education = () => {
                   EPI - International Multidisciplinary School
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 09/2021 - 01/2024
+                  <i className="uil uil-calendar-alt"></i> 09/2021 - 01/2025
                 </div>
               </div>
 

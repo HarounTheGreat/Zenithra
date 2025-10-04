@@ -161,7 +161,7 @@ const Footer = () => {
 
         <div className="footer__bottom">
           <p className="footer__copy">
-            © 2024 Zenithra Clinic. {t("footer.rights")}
+            © 2025 Zenithra Clinic. {t("footer.rights")}
           </p>
           <div className="footer__legal">
             <Link

@@ -9,7 +9,7 @@ const LanguageSelector = () => {
   const languages = [
     { code: "fr", name: "Français", flag: "🇫🇷" },
     { code: "en", name: "English", flag: "🇺🇸" },
-    { code: "ar", name: "العربية", flag: "🇲🇦" },
+    { code: "ar", name: "العربية", flag: "🇹🇳" },
   ];
 
   const currentLanguage =
